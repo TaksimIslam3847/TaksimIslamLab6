@@ -8,12 +8,16 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class IslamActivity6 extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
     BottomNavigationView bottomNavigationView;
-
+    ProgressBar progressBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +26,7 @@ public class IslamActivity6 extends AppCompatActivity implements BottomNavigatio
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
-        bottomNavigationView.setSelectedItemId(R.id.person);
+        bottomNavigationView.setSelectedItemId(R.id.home);
 
     }
     FirstFragment firstFragment = new FirstFragment();
@@ -57,4 +61,34 @@ public class IslamActivity6 extends AppCompatActivity implements BottomNavigatio
         return true;
     }
 
+    public void toast(View view) {
+        progressBar = findViewById(R.id.progressBar);
+        int counter=0;
+        int z = (counter+1);
+        if (counter == 1){
+            Toast.makeText(this,"Taksim"+z,Toast.LENGTH_SHORT).show();
+            counter++;
+        }
+        else if (counter == 2){
+            Toast.makeText(this,"Taksim"+z,Toast.LENGTH_SHORT).show();
+            counter++;
+        }else if (counter == 3){
+            Toast.makeText(this,"Taksim"+z,Toast.LENGTH_SHORT).show();
+            counter++;
+        }
+        else if (counter == 4){
+            Toast.makeText(this,"Taksim"+z,Toast.LENGTH_SHORT).show();
+            counter++;
+        }
+        else if (counter == 5){
+            progressBar.setVisibility(View.GONE);
+            counter++;
+        } else if (counter == 6) {
+            counter++;
+        } else if (counter == 7) {
+            counter++;
+        } else if (counter ==8) {
+                System.exit(0);
+        }
+    }
 }
