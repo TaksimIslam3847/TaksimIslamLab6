@@ -28,6 +28,7 @@ public class IslamActivity6 extends AppCompatActivity implements BottomNavigatio
     FirstFragment firstFragment = new FirstFragment();
     SecondFragment secondFragment = new SecondFragment();
     ThirdFragment thirdFragment = new ThirdFragment();
+    TaksimFragment taksimFragment = new TaksimFragment();
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -36,7 +37,9 @@ public class IslamActivity6 extends AppCompatActivity implements BottomNavigatio
             case R.id.person:
                 getSupportFragmentManager().beginTransaction().replace(R.id.flFragment, firstFragment).commit();
                 return true;
-
+            case R.id.taksim:
+                getSupportFragmentManager().beginTransaction().replace(R.id.flFragment, taksimFragment).commit();
+                return true;
             case R.id.home:
                 getSupportFragmentManager().beginTransaction().replace(R.id.flFragment, secondFragment).commit();
                 return true;
