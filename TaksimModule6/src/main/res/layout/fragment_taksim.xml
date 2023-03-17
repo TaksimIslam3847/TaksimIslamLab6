@@ -11,7 +11,7 @@
         android:id="@+id/firstFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Taksim"
+        android:text="@string/taksim"
         android:textColor="@color/blue"
         android:textSize="30sp"
         android:textStyle="italic|bold"
@@ -36,19 +36,19 @@
             android:id="@+id/radioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1st Button" />
+            android:text="@string/_1st_button" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2nd Button" />
+            android:text="@string/_2nd_button" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="3rd Button" />
+            android:text="@string/_3rd_button" />
     </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

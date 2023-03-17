@@ -31,33 +31,33 @@ public class SecondFragment extends Fragment {
 
                 int z = (counter+1);
                 if (counter == 0){
-                    Toast.makeText(getContext(),"Taksim "+z,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(),getString(R.string.my_name)+z,Toast.LENGTH_SHORT).show();
                     counter++;
                 }
                 else if (counter == 1){
-                    Toast.makeText(getContext(),"Taksim "+z,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(),getString(R.string.my_name)+z,Toast.LENGTH_SHORT).show();
                     counter++;
                 }else if (counter == 2){
-                    Toast.makeText(getContext(),"Taksim"+z,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(),getString(R.string.my_name)+z,Toast.LENGTH_SHORT).show();
                     counter++;
                 }
                 else if (counter == 3){
-                    Toast.makeText(getContext(),"Taksim"+z,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(),getString(R.string.my_name)+z,Toast.LENGTH_SHORT).show();
                     counter++;
                 }
                 else if (counter == 4){
                     counter++;
-                    Toast.makeText(getContext(),"Taksim"+z,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(),getString(R.string.my_name)+z,Toast.LENGTH_SHORT).show();
                     progressBar.setVisibility(View.INVISIBLE);
 
                 } else if (counter == 5) {
-                    Toast.makeText(getContext(),"Taksim"+z,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(),getString(R.string.my_name)+z,Toast.LENGTH_SHORT).show();
                     counter++;
                 } else if (counter == 6) {
-                    Toast.makeText(getContext(),"Taksim"+z,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(),getString(R.string.my_name)+z,Toast.LENGTH_SHORT).show();
                     counter++;
                 } else if (counter ==7) {
-                    Toast.makeText(getContext(),"Taksim"+z,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(),getString(R.string.my_name)+z,Toast.LENGTH_SHORT).show();
                     System.exit(0);
                 }
             }

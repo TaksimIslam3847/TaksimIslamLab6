@@ -29,9 +29,9 @@ public class TaksimFragment extends Fragment {
                     case R.id.radioButton:
                         AlertDialog.Builder builder = new AlertDialog.Builder(view.getContext());
 
-                        builder.setTitle("Taksim");
-                        builder.setMessage("1st Radio Button Selected");
-                        builder.setNegativeButton("Okay", (DialogInterface.OnClickListener) (dialog, which) -> {
+                        builder.setTitle(getString(R.string.my_name));
+                        builder.setMessage(R.string.first_radio);
+                        builder.setNegativeButton(R.string.Okay, (DialogInterface.OnClickListener) (dialog, which) -> {
                             dialog.cancel();
                         });
                         builder.setCancelable(false);
@@ -41,9 +41,9 @@ public class TaksimFragment extends Fragment {
                     case R.id.radioButton2:
                         AlertDialog.Builder builder1 = new AlertDialog.Builder(view.getContext());
 
-                        builder1.setTitle("Taksim");
-                        builder1.setMessage("2nd Radio Button Selected");
-                        builder1.setNegativeButton("Okay", (DialogInterface.OnClickListener) (dialog, which) -> {
+                        builder1.setTitle(getString(R.string.my_name));
+                        builder1.setMessage(R.string.second_radio);
+                        builder1.setNegativeButton(R.string.Okay, (DialogInterface.OnClickListener) (dialog, which) -> {
                             dialog.cancel();
                         });
                         builder1.setCancelable(false);
@@ -53,9 +53,9 @@ public class TaksimFragment extends Fragment {
                     case R.id.radioButton3:
                         AlertDialog.Builder builder2 = new AlertDialog.Builder(view.getContext());
 
-                        builder2.setTitle("Taksim");
-                        builder2.setMessage("3rd Radio Button Selected");
-                        builder2.setNegativeButton("Okay", (DialogInterface.OnClickListener) (dialog, which) -> {
+                        builder2.setTitle(getString(R.string.my_name));
+                        builder2.setMessage(R.string.third_radio);
+                        builder2.setNegativeButton(R.string.Okay, (DialogInterface.OnClickListener) (dialog, which) -> {
                             dialog.cancel();
                         });
                         builder2.setCancelable(false);

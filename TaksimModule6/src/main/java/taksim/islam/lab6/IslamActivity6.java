@@ -60,35 +60,4 @@ public class IslamActivity6 extends AppCompatActivity implements BottomNavigatio
         inflater.inflate(R.menu.menu, menu);
         return true;
     }
-
-    public void toast(View view) {
-        progressBar = findViewById(R.id.progressBar);
-        int counter=0;
-        int z = (counter+1);
-        if (counter == 1){
-            Toast.makeText(this,"Taksim"+z,Toast.LENGTH_SHORT).show();
-            counter++;
-        }
-        else if (counter == 2){
-            Toast.makeText(this,"Taksim"+z,Toast.LENGTH_SHORT).show();
-            counter++;
-        }else if (counter == 3){
-            Toast.makeText(this,"Taksim"+z,Toast.LENGTH_SHORT).show();
-            counter++;
-        }
-        else if (counter == 4){
-            Toast.makeText(this,"Taksim"+z,Toast.LENGTH_SHORT).show();
-            counter++;
-        }
-        else if (counter == 5){
-            progressBar.setVisibility(View.GONE);
-            counter++;
-        } else if (counter == 6) {
-            counter++;
-        } else if (counter == 7) {
-            counter++;
-        } else if (counter ==8) {
-                System.exit(0);
-        }
-    }
 }

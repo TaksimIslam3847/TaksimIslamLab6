@@ -1,16 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TaksimLayout6</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="my_name">\"Taksim \"</string>
-    <string name="first_radio">1st Radio Button Selected</string>
-    <string name="second_radio">2nd Radio Button Selected</string>
-    <string name="third_radio">3rd Radio Button Selected</string>
-    <string name="Okay">Okay</string>
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="my_name">Taksim</string>
+    <string name="first_radio">1er bouton radio sélectionné</string>
+    <string name="second_radio">2e bouton radio sélectionné</string>
+    <string name="third_radio">3e bouton radio sélectionné</string>
+    <string name="Okay">D\'accord</string>
     <string name="taksim">Taksim</string>
-    <string name="_1st_button">1st Button</string>
-    <string name="_2nd_button">2nd Button</string>
-    <string name="_3rd_button">3rd Button</string>
+    <string name="_1st_button">1er bouton</string>
+    <string name="_2nd_button">2e bouton</string>
+    <string name="_3rd_button">3ème bouton</string>
     <string-array name="Canada">
         <item> Ontario</item>
         <item> Alberta</item>
