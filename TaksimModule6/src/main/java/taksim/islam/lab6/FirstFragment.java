@@ -7,6 +7,7 @@ import java.io.*;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
@@ -20,7 +21,11 @@ public class FirstFragment extends Fragment {
 
 
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_first, container, false);
+        View view=inflater.inflate(R.layout.fragment_first, container, false);
+
+
+
+        return  view;
     }
 
 }
